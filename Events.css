@@ -1,0 +1,100 @@
+.logo-image{
+    text-align: left;
+     width: 20%;
+     height: 30%;
+     position: absolute;
+}
+.topnav{
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  font-size: larger;
+  text-align: right;
+  background-color: #333;
+  overflow: hidden;
+}
+.topnav a{
+  color: #f2f2f2;
+  text-align: right;
+  padding: 55px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover{
+  background-color: #dddddd;
+  color: black;
+}
+.topnack a.active{
+  background-color: rgba(0, 0, 255, 0.37);
+  color: white;
+}
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.h1{
+    text-align: center;
+    font-size: larger;
+}
+.p1{
+  text-align: center;
+  font-size: 20px;
+}
+.ev1pic{
+  text-align: left;
+}
+.event1pic{
+  float: left;
+  margin: auto;
+  padding: 10px;
+  width: 30%;
+  height: 40%;
+}
+.ev2pic{
+  text-align: right;
+}
+.event1pic2{
+  float: right;
+  margin: auto;
+  padding: 20px;
+  width: 30%;
+  height: 40%;
+}
+.p2{
+  text-align: center;
+  font-size: larger;
+}
+.ev2pic{
+  text-align: center;
+}
+.event1pic3{
+  margin: auto;
+  padding: 20px;
+  height: 40%;
+  width: 30%;
+}
+.footer{
+  list-style-type: none;
+  text-align:center;
+  font-size: 16px;
+}
+.thead, footer {
+      background: rgba(0, 0, 255, 0.37);;
+      color: black;
+      text-shadow: 1px 1px 1px black;
+      }
+tr:nth-of-type(2n) {
+    background:rgba(0, 0, 255, 0.37);
+}
+.image4{
+text-align: left;
+
+}
+.img4{
+  width: 20%;
+  height: 30%; 
+  position: absolute;
+}
